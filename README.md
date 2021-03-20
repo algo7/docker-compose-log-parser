@@ -6,4 +6,4 @@ A simple parser written in go for parsing docker-compose log running in foregrou
 
 `go build`
 
-`docker-compose up | parser | jq .`
+`docker-compose up | parser | jq -R "fromjson?"`
