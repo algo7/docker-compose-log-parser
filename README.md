@@ -4,4 +4,6 @@ A simple parser written in go for parsing docker-compose log running in foregrou
 
 ## Usage Example:
 
+`go build`
+
 `docker-compose up | parser | jq .`
